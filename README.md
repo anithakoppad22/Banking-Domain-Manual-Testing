@@ -1,4 +1,3 @@
-# Banking-Domain-Manual-Testing
 # Banking Domain – Manual Testing Project
 
 ## Overview
