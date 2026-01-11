@@ -8,7 +8,7 @@ TS-05 Verify account lock after multiple invalid login attempts
 TS-06 Verify session timeout after inactivity
 TS-07 Verify logout functionality
 
-2️.Dashboard / Account Summary Module – Test Scenarios
+2.Dashboard / Account Summary Module – Test Scenarios
 
 TS-08 Verify dashboard loads after successful login
 TS-09 Verify display of account number and account type
@@ -16,7 +16,7 @@ TS-10 Verify display of available balance
 TS-11 Verify refresh of balance after transaction
 TS-12 Verify dashboard access without login
 
-3️.Beneficiary Management Module – Test Scenarios
+3.Beneficiary Management Module – Test Scenarios
 
 TS-13 Verify add beneficiary with valid details
 TS-14 Verify add beneficiary with invalid account number
@@ -27,7 +27,7 @@ TS-18 Verify beneficiary addition without OTP
 TS-19 Verify viewing beneficiary list
 TS-20 Verify deletion of beneficiary
 
-4️.Fund Transfer Module – Test Scenarios (CORE)
+4.Fund Transfer Module – Test Scenarios (CORE)
 
 TS-21 Verify fund transfer with sufficient balance
 TS-22 Verify fund transfer with insufficient balance
