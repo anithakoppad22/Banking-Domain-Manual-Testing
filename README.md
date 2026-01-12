@@ -18,6 +18,27 @@ The project demonstrates requirement analysis, test case creation, defect tracki
 - Excel / CSV – Test case and defect exports  
 
 ---
+## JIRA Test Management Evidence
+
+This project was executed using **JIRA (Company-Managed Project)** to simulate a real-time banking application testing workflow.
+
+### JIRA Activities Performed
+- Created Epic: Login & Authentication Module
+- Created multiple Test Scenarios (TS)
+- Created detailed Test Cases (TC) with steps & expected results
+- Linked Test Cases to respective Test Scenarios
+- Maintained backlog and workflow status
+- Followed Agile testing practices
+
+### JIRA Screenshots
+All JIRA-related evidence is available in the folder:
+📁 `JIRA_Artifacts/`
+
+Includes:
+- Epic & Backlog view
+- Test Scenario listing
+- Individual Test Case details
+- Sample defect report
 
 ## Test Artifacts
 - Software Requirement Specification (SRS)
