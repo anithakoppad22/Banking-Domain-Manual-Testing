@@ -1,0 +1,192 @@
+TS-01 Verify adding beneficiary with valid details
+
+TC-01.1 Add beneficiary using valid details
+
+Preconditions:
+1.User is logged in
+2.User has active account
+3.OTP service is available
+
+
+Steps:
+1.Navigate to Beneficiary Management
+2.Click on "Add Beneficiary"
+3.Enter valid beneficiary name
+4.Enter valid account number
+5.Enter valid IFSC code
+6.Click Submit
+7.Enter valid OTP
+8.Confirm
+
+
+Expected Result:
+1.Beneficiary is added successfully
+2.Success message is displayed
+
+
+
+TS-02 Verify adding beneficiary with invalid account number
+
+TC-02.1 Invalid account number validation
+Steps:
+1.Enter invalid account number
+2.Fill remaining fields correctly
+3.Click Submit
+
+
+Expected Result:
+1.Error message is displayed
+2.Beneficiary is not added
+
+
+
+TS-03 Verify adding beneficiary with invalid IFSC code
+
+TC-03.1 Invalid IFSC validation
+Steps:
+1.Enter invalid IFSC code
+2.Click Submit
+
+
+Expected Result:
+1.IFSC validation error is displayed
+
+
+
+TS-04 Verify mandatory field validation
+
+TC-04.1 Submit with empty mandatory fields
+
+Steps:
+1.Leave mandatory fields blank
+2.Click Submit
+
+
+Expected Result:
+1.Mandatory field error messages are shown
+
+
+
+TS-05 Verify OTP verification while adding beneficiary
+
+TC-05.1 Valid OTP verification
+
+Steps:
+1.Add beneficiary details
+2.Enter valid OTP
+
+
+Expected Result:
+1.OTP is verified
+2.Beneficiary is added successfully
+
+
+
+TS-06 Verify adding beneficiary without OTP
+
+TC-06.1 Submit without OTP
+
+Steps:
+1.Skip OTP entry
+2.Click Confirm
+
+Expected Result:
+1.OTP required error message is displayed
+
+
+
+TS-07 Verify viewing beneficiary list
+
+TC-07.1 View beneficiary list
+
+Steps:
+1.Navigate to Beneficiary List
+
+
+Expected Result:
+1.List of beneficiaries is displayed correctly
+
+
+
+TS-08 Verify editing beneficiary details
+
+TC-08.1 Edit beneficiary name
+
+Steps:
+1.Select existing beneficiary
+2.Edit beneficiary name
+3.Save changes
+
+
+Expected Result:
+1.Beneficiary details are updated successfully
+
+TS-09 Verify deleting beneficiary
+
+TC-09.1 Delete beneficiary confirmation
+
+Steps:
+1.Select beneficiary
+2.Click Delete
+3.Confirm deletion
+
+
+Expected Result:
+1.Beneficiary is removed from the list
+
+
+TS-10 Verify duplicate beneficiary addition
+
+TC-10.1 Add existing beneficiary again
+
+Steps:
+1.Add beneficiary with same account details
+
+
+Expected Result:
+1.Duplicate beneficiary error is shown
+
+
+
+TS-11 Verify beneficiary activation time
+
+TC-11.1 Cool-off period validation
+
+Expected Result:
+1.Beneficiary becomes active only after configured time
+
+
+TS-12 Verify unauthorized access
+
+TC-12.1 Access without login
+
+Steps:
+1.Access beneficiary URL directly
+
+
+Expected Result:
+1.User is redirected to login page
+
+
+
+TS-13 Verify session timeout
+
+TC-13.1 Session expires during add beneficiary
+
+
+Expected Result:
+1.User is logged out
+2.Session expired message is displayed
+
+
+TS-14 Verify service unavailability handling
+
+TC-14.1 Beneficiary service down
+
+Expected Result:
+1.Proper error message is displayed
+2.No data loss occurs
+
+
+
+
